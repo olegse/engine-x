@@ -1,8 +1,8 @@
 #  HTML files. Start with html volume or clone the source from
 # github/olegse/class_files
 ARG  CODE_VERSION=latest
-#FROM osergiyuk/engine-x:main-base
-FROM docker.io/cfsupport/engine-x:main-base
+FROM cfsupport/engine-x:main-base
+#FROM docker.io/cfsupport/engine-x:main-base
 
 ENV NGINX_CONF default.conf
 
