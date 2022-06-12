@@ -2,7 +2,7 @@
 # github/olegse/class_files
 FROM nginx:latest
 
-ENV NGINX_CONF simple.conf
+ENV NGINX_CONF default.conf
 
 ADD ./conf.d/$NGINX_CONF /etc/nginx/$NGINX_CONF
 RUN echo "hello $NGINX_CONF"
