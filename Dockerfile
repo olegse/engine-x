@@ -1,6 +1,6 @@
 #  HTML files. Start with html volume or clone the source from
 # github/olegse/class_files
-ARG  CODE_VERSION=latest
+ARG  CODE_VERSION=0.0.1
 FROM cfsupport/engine-x:main-base
 #FROM docker.io/cfsupport/engine-x:main-base
 
