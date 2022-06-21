@@ -1,6 +1,6 @@
 #  HTML files. Start with html volume or clone the source from
 # github/olegse/class_files
-ARG  CODE_VERSION=0.0.2
+ARG  CODE_VERSION=0.0.3
 FROM cfsupport/engine-x:main-base
 
 ENV NGINX_CONF default.conf
